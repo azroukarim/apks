@@ -1,4 +1,4 @@
-# Streamplayer v5 — build 5.3.53
+# Streamplayer v5 — build 5.3.54
 
 APK de production pour Android TV / Android Phone.
 
@@ -6,31 +6,31 @@ APK de production pour Android TV / Android Phone.
 
 | Fichier | Architecture |
 | --- | --- |
-| `Streamplayer_v5.3.53_arm32.apk` | `armeabi-v7a` |
-| `Streamplayer_v5.3.53_arm64.apk` | `arm64-v8a` |
-| `Streamplayer_v5.3.53_x86_64.apk` | `x86_64` |
+| `Streamplayer_v5.3.54_arm32.apk` | `armeabi-v7a` |
+| `Streamplayer_v5.3.54_arm64.apk` | `arm64-v8a` |
+| `Streamplayer_v5.3.54_x86_64.apk` | `x86_64` |
 
 ## Liens de téléchargement (HTTP)
 
 ```
-http://192.168.0.87:8099/Streamplayer_v5.3.53_arm32.apk
-http://192.168.0.87:8099/Streamplayer_v5.3.53_arm64.apk
-http://192.168.0.87:8099/Streamplayer_v5.3.53_x86_64.apk
+http://192.168.0.87:8099/Streamplayer_v5.3.54_arm32.apk
+http://192.168.0.87:8099/Streamplayer_v5.3.54_arm64.apk
+http://192.168.0.87:8099/Streamplayer_v5.3.54_x86_64.apk
 ```
 
-## Changes in 5.3.53
+## Changes in 5.3.54
 
-- **Resume confirmation dialog**: when a movie or an episode has a saved position, a small window now asks whether to start from the beginning or continue from the last frame. No automatic jump any more.
-- **Series seeking fixed**: LEFT / RIGHT always seek ±10 s in movies and episodes, even while an info-bar button is highlighted. DOWN cycles the info-bar buttons and UP walks back to the video.
-- Completed items clear their saved position automatically; a position close to the end is still kept so the dialog can offer a restart.
-- Keeps the 5.3.52 features: refresh scheduler, Nouveautés / Derniers lus bouquets, bouquet visibility editor, VLC full-screen fix and 4K/UHD playback settings.
+- **Phone controls fixed**: the info bar can now always be hidden and shown in Live TV, Movies and Series.
+- Added an explicit **hide** button in the top bar and a permanent small **show** button when the controls are hidden. Tapping the info-bar background also hides it.
+- Works around phones where touches on the native video view are not delivered to Flutter.
+- Keeps the 5.3.53 features: resume confirmation dialog, reliable ±10 s seeking in series, refresh scheduler, Nouveautés / Derniers lus bouquets, bouquet visibility editor and 4K/UHD playback settings.
 
 ## Installation
 
 Install only the APK matching the device architecture:
 
 ```sh
-adb install -r Streamplayer_v5.3.53_arm32.apk
+adb install -r Streamplayer_v5.3.54_arm32.apk
 ```
 
 ## Vérification
@@ -42,5 +42,5 @@ sha256sum -c SHA256SUMS
 Windows PowerShell:
 
 ```powershell
-Get-FileHash .\Streamplayer_v5.3.53_arm32.apk -Algorithm SHA256
+Get-FileHash .\Streamplayer_v5.3.54_arm32.apk -Algorithm SHA256
 ```
