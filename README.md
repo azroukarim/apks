@@ -1,39 +1,58 @@
-# Streamplayer v5 — build 5.3.62
+# Streamplayer v5 — build 5.3.64
 
-APK de production pour Android TV / Android Phone.
+APK de production pour Android TV / Google TV / Fire TV, téléphones et tablettes.
 
 ## Fichiers
 
 | Fichier | Architecture |
 | --- | --- |
-| `Streamplayer_v5.3.62_arm32.apk` | `armeabi-v7a` |
-| `Streamplayer_v5.3.62_arm64.apk` | `arm64-v8a` |
-| `Streamplayer_v5.3.62_x86_64.apk` | `x86_64` |
+| `Streamplayer_v5.3.64_arm32.apk` | `armeabi-v7a` (boîtiers TV 32 bits) |
+| `Streamplayer_v5.3.64_arm64.apk` | `arm64-v8a` (téléphones/tablettes et TV 64 bits) |
+| `Streamplayer_v5.3.64_x86_64.apk` | `x86_64` (émulateurs / TV x86) |
 
-## Liens de téléchargement (HTTP)
+## Mise à jour automatique
+
+`version.json` décrit la dernière version publiée. Au lancement, l'application
+lit ce fichier sur GitHub. Si une version plus récente existe, une fenêtre
+propose **Mettre à jour** ou **Plus tard**.
+
+- **Mettre à jour** : télécharge l'APK correspondant à l'ABI de l'appareil,
+  vérifie son SHA-256 puis ouvre l'installateur Android.
+- **Plus tard** : ignore la proposition pour la session en cours.
+- **Réglages → MISE À JOUR** : revérifie manuellement à tout moment.
+
+Autorisez « Installer des applications inconnues » pour Streamplayer (et
+désactivez l'Auto Blocker sur Samsung) lors de la première mise à jour.
+
+## Liens de téléchargement (HTTP local)
 
 ```
-http://192.168.0.87:8099/Streamplayer_v5.3.62_arm32.apk
-http://192.168.0.87:8099/Streamplayer_v5.3.62_arm64.apk
-http://192.168.0.87:8099/Streamplayer_v5.3.62_x86_64.apk
+http://192.168.0.87:8099/Streamplayer_v5.3.64_arm32.apk
+http://192.168.0.87:8099/Streamplayer_v5.3.64_arm64.apk
+http://192.168.0.87:8099/Streamplayer_v5.3.64_x86_64.apk
 ```
 
-## Changes in 5.3.62
+Liens GitHub (utilisés par la mise à jour automatique) :
 
-- **Position des sous-titres**: remontés de 5 % environ pour ne plus coller au bord bas de l'écran.
-  - MPV: `sub-pos=95`.
-  - VLC: `--sub-margin=54` (marge positive = remontée dans libVLC).
-  - ExoPlayer: marge basse 64 → 88 px.
-- **Sous-titres séries (5.3.61)**: saison/épisode vérifiés quand disponibles.
-- **Sous-titres films (5.3.59)**: filtrage par année et scoring du titre.
-- **PLEIN** (5.3.58): remplit réellement l'écran.
-- **Une touche** (5.3.58): affiche la barre d'infos (sans bouton œil).
-- **Listes latérales** (5.3.57): défilement naturel.
+```
+https://raw.githubusercontent.com/azroukarim/apks/main/Streamplayer_v5.3.64_arm32.apk
+https://raw.githubusercontent.com/azroukarim/apks/main/Streamplayer_v5.3.64_arm64.apk
+https://raw.githubusercontent.com/azroukarim/apks/main/Streamplayer_v5.3.64_x86_64.apk
+```
 
-## Installation
+## Changements 5.3.64
+
+- **Mise à jour intégrée** depuis le dépôt GitHub, avec choix `Mettre à jour`
+  ou `Plus tard`, téléchargement vérifié et installation automatique.
+- **Sous-titres ZOOM** relevés sur l'image du film (MPV `sub-pos=85`,
+  VLC `--sub-margin=160`, ExoPlayer marge basse 15 %).
+- Aucune modification des joueurs, bouquets, M3U, Xtream/MAG ou de la lecture.
+
+## Installation manuelle
 
 ```sh
-adb install -r Streamplayer_v5.3.62_arm32.apk
+adb install -r Streamplayer_v5.3.64_arm32.apk   # boîtier TV
+adb install -r Streamplayer_v5.3.64_arm64.apk   # téléphone / tablette
 ```
 
 ## Vérification
