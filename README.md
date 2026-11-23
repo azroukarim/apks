@@ -1,4 +1,4 @@
-# Streamplayer v5 — build 5.3.64
+# Streamplayer v5 — build 5.3.65
 
 APK de production pour Android TV / Google TV / Fire TV, téléphones et tablettes.
 
@@ -6,9 +6,9 @@ APK de production pour Android TV / Google TV / Fire TV, téléphones et tablett
 
 | Fichier | Architecture |
 | --- | --- |
-| `Streamplayer_v5.3.64_arm32.apk` | `armeabi-v7a` (boîtiers TV 32 bits) |
-| `Streamplayer_v5.3.64_arm64.apk` | `arm64-v8a` (téléphones/tablettes et TV 64 bits) |
-| `Streamplayer_v5.3.64_x86_64.apk` | `x86_64` (émulateurs / TV x86) |
+| `Streamplayer_v5.3.65_arm32.apk` | `armeabi-v7a` (boîtiers TV 32 bits) |
+| `Streamplayer_v5.3.65_arm64.apk` | `arm64-v8a` (téléphones/tablettes et TV 64 bits) |
+| `Streamplayer_v5.3.65_x86_64.apk` | `x86_64` (émulateurs / TV x86) |
 
 ## Mise à jour automatique
 
@@ -27,23 +27,25 @@ désactivez l'Auto Blocker sur Samsung) lors de la première mise à jour.
 ## Liens de téléchargement (HTTP local)
 
 ```
-http://192.168.0.87:8099/Streamplayer_v5.3.64_arm32.apk
-http://192.168.0.87:8099/Streamplayer_v5.3.64_arm64.apk
-http://192.168.0.87:8099/Streamplayer_v5.3.64_x86_64.apk
+http://192.168.0.87:8099/Streamplayer_v5.3.65_arm32.apk
+http://192.168.0.87:8099/Streamplayer_v5.3.65_arm64.apk
+http://192.168.0.87:8099/Streamplayer_v5.3.65_x86_64.apk
 ```
 
 Liens GitHub (utilisés par la mise à jour automatique) :
 
 ```
-https://raw.githubusercontent.com/azroukarim/apks/main/Streamplayer_v5.3.64_arm32.apk
-https://raw.githubusercontent.com/azroukarim/apks/main/Streamplayer_v5.3.64_arm64.apk
-https://raw.githubusercontent.com/azroukarim/apks/main/Streamplayer_v5.3.64_x86_64.apk
+https://raw.githubusercontent.com/azroukarim/apks/main/Streamplayer_v5.3.65_arm32.apk
+https://raw.githubusercontent.com/azroukarim/apks/main/Streamplayer_v5.3.65_arm64.apk
+https://raw.githubusercontent.com/azroukarim/apks/main/Streamplayer_v5.3.65_x86_64.apk
 ```
 
-## Changements 5.3.64
+## Changements 5.3.65
 
-- **Mise à jour intégrée** depuis le dépôt GitHub, avec choix `Mettre à jour`
-  ou `Plus tard`, téléchargement vérifié et installation automatique.
+- **Réglages** : les six tuiles sont affichées en grille **3 colonnes × 2 lignes**
+  sur téléphone comme sur TV.
+- **Mise à jour intégrée** depuis GitHub, avec choix `Mettre à jour` ou
+  `Plus tard`, téléchargement vérifié et installation automatique.
 - **Sous-titres ZOOM** relevés sur l'image du film (MPV `sub-pos=85`,
   VLC `--sub-margin=160`, ExoPlayer marge basse 15 %).
 - Aucune modification des joueurs, bouquets, M3U, Xtream/MAG ou de la lecture.
@@ -51,8 +53,8 @@ https://raw.githubusercontent.com/azroukarim/apks/main/Streamplayer_v5.3.64_x86_
 ## Installation manuelle
 
 ```sh
-adb install -r Streamplayer_v5.3.64_arm32.apk   # boîtier TV
-adb install -r Streamplayer_v5.3.64_arm64.apk   # téléphone / tablette
+adb install -r Streamplayer_v5.3.65_arm32.apk   # boîtier TV
+adb install -r Streamplayer_v5.3.65_arm64.apk   # téléphone / tablette
 ```
 
 ## Vérification
