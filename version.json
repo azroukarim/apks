@@ -1,18 +1,18 @@
 {
-  "version": "5.3.66",
-  "notes": "Premier lancement sans serveur : écran de configuration MAG/XTREAM/M3U principal. Réglages en grille 3×2, mise à jour GitHub et sous-titres ZOOM corrigés.",
+  "version": "5.3.67",
+  "notes": "Écran d'accueil toujours affiché au démarrage, même sans serveur : Changer la liste pour ajouter XTREAM/MAG/M3U. Réglages en grille 3×2, mise à jour GitHub et sous-titres ZOOM.",
   "files": {
     "arm64-v8a": {
-      "name": "Streamplayer_v5.3.66_arm64.apk",
-      "sha256": "421ebfb7355e473d724429361b60bc2ce4e59db30e7ee0f154b3d73da4f6f4ec"
+      "name": "Streamplayer_v5.3.67_arm64.apk",
+      "sha256": "851270859d9b4c89004e8c5ec24fa305370366d1f7562e6f91ba0e0fbd570461"
     },
     "armeabi-v7a": {
-      "name": "Streamplayer_v5.3.66_arm32.apk",
-      "sha256": "e56f097b6749bcdd5d3f91cfc5c8d16c5c7b150cb144de549dde8fc4a178ae65"
+      "name": "Streamplayer_v5.3.67_arm32.apk",
+      "sha256": "14cd812cd8701baf5429bd26cddc178cdabf90f655cf0ebca2367956c075ef3f"
     },
     "x86_64": {
-      "name": "Streamplayer_v5.3.66_x86_64.apk",
-      "sha256": "fcfe317a33269698010a68002b102fda3e21ca4f7f327a9316bcd3ed49775a60"
+      "name": "Streamplayer_v5.3.67_x86_64.apk",
+      "sha256": "2c3e74a5e4b6ba96abb75bc6571e8104e7308830d1ec2a4d2630a8f532370f08"
     }
   }
 }

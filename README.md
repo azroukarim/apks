@@ -1,4 +1,4 @@
-# Streamplayer v5 — build 5.3.66
+# Streamplayer v5 — build 5.3.67
 
 APK de production pour Android TV / Google TV / Fire TV, téléphones et tablettes.
 
@@ -6,16 +6,16 @@ APK de production pour Android TV / Google TV / Fire TV, téléphones et tablett
 
 | Fichier | Architecture |
 | --- | --- |
-| `Streamplayer_v5.3.66_arm32.apk` | `armeabi-v7a` (boîtiers TV 32 bits) |
-| `Streamplayer_v5.3.66_arm64.apk` | `arm64-v8a` (téléphones/tablettes et TV 64 bits) |
-| `Streamplayer_v5.3.66_x86_64.apk` | `x86_64` (émulateurs / TV x86) |
+| `Streamplayer_v5.3.67_arm32.apk` | `armeabi-v7a` (boîtiers TV 32 bits) |
+| `Streamplayer_v5.3.67_arm64.apk` | `arm64-v8a` (téléphones/tablettes et TV 64 bits) |
+| `Streamplayer_v5.3.67_x86_64.apk` | `x86_64` (émulateurs / TV x86) |
 
-## Premier lancement
+## Écran d'accueil
 
-Lorsqu'aucun serveur XTREAM / MAG / M3U n'est configuré, l'application ouvre
-directement l'écran **Playlist** (MAG PORTAL, XTREAM ACCOUNT, M3U LINK). Il
-reste l'écran principal tant qu'il n'y a aucun serveur ; le bouton RETOUR ne
-laisse pas une page vide.
+L'écran d'accueil **Streamplayer** (En direct, Films, Séries, Compte,
+Changer la liste, Paramètres, Recharger, Quitter) est toujours la première
+page de l'application, même lorsqu'aucun serveur XTREAM / MAG / M3U n'est
+configuré. Les serveurs s'ajoutent depuis **Changer la liste**.
 
 ## Mise à jour automatique
 
@@ -34,23 +34,24 @@ désactivez l'Auto Blocker sur Samsung) lors de la première mise à jour.
 ## Liens de téléchargement (HTTP local)
 
 ```
-http://192.168.0.87:8099/Streamplayer_v5.3.66_arm32.apk
-http://192.168.0.87:8099/Streamplayer_v5.3.66_arm64.apk
-http://192.168.0.87:8099/Streamplayer_v5.3.66_x86_64.apk
+http://192.168.0.87:8099/Streamplayer_v5.3.67_arm32.apk
+http://192.168.0.87:8099/Streamplayer_v5.3.67_arm64.apk
+http://192.168.0.87:8099/Streamplayer_v5.3.67_x86_64.apk
 ```
 
 Liens GitHub (utilisés par la mise à jour automatique) :
 
 ```
-https://raw.githubusercontent.com/azroukarim/apks/main/Streamplayer_v5.3.66_arm32.apk
-https://raw.githubusercontent.com/azroukarim/apks/main/Streamplayer_v5.3.66_arm64.apk
-https://raw.githubusercontent.com/azroukarim/apks/main/Streamplayer_v5.3.66_x86_64.apk
+https://raw.githubusercontent.com/azroukarim/apks/main/Streamplayer_v5.3.67_arm32.apk
+https://raw.githubusercontent.com/azroukarim/apks/main/Streamplayer_v5.3.67_arm64.apk
+https://raw.githubusercontent.com/azroukarim/apks/main/Streamplayer_v5.3.67_x86_64.apk
 ```
 
-## Changements 5.3.66
+## Changements 5.3.67
 
-- **Premier lancement sans serveur** : l'écran de configuration des playlists
-  est la page principale, même si l'utilisateur revient depuis l'accueil.
+- **Accueil toujours en premier** : l'application démarre sur l'écran
+  d'accueil même sans aucun serveur ; « Changer la liste » ouvre la
+  configuration XTREAM / MAG / M3U.
 - **Réglages** : six tuiles en grille **3 colonnes × 2 lignes**.
 - **Mise à jour intégrée** depuis GitHub (`Mettre à jour` / `Plus tard`).
 - **Sous-titres ZOOM** placés sur l'image du film.
@@ -58,8 +59,8 @@ https://raw.githubusercontent.com/azroukarim/apks/main/Streamplayer_v5.3.66_x86_
 ## Installation manuelle
 
 ```sh
-adb install -r Streamplayer_v5.3.66_arm32.apk   # boîtier TV
-adb install -r Streamplayer_v5.3.66_arm64.apk   # téléphone / tablette
+adb install -r Streamplayer_v5.3.67_arm32.apk   # boîtier TV
+adb install -r Streamplayer_v5.3.67_arm64.apk   # téléphone / tablette
 ```
 
 ## Vérification
