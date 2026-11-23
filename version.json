@@ -1,18 +1,18 @@
 {
-  "version": "5.3.67",
-  "notes": "Écran d'accueil toujours affiché au démarrage, même sans serveur : Changer la liste pour ajouter XTREAM/MAG/M3U. Réglages en grille 3×2, mise à jour GitHub et sous-titres ZOOM.",
+  "version": "5.3.68",
+  "notes": "Navigation D-pad améliorée : bouquets en colonnes avec flèches gauche/droite, timeline et commandes film/série, suppression de suivant/précédent pour les films. Accueil toujours en premier, réglages 3×2, mise à jour GitHub.",
   "files": {
     "arm64-v8a": {
-      "name": "Streamplayer_v5.3.67_arm64.apk",
-      "sha256": "851270859d9b4c89004e8c5ec24fa305370366d1f7562e6f91ba0e0fbd570461"
+      "name": "Streamplayer_v5.3.68_arm64.apk",
+      "sha256": "b23b392ded225b902b3de6a3d83a1c44898015f5da9a497a67767b11b7a71825"
     },
     "armeabi-v7a": {
-      "name": "Streamplayer_v5.3.67_arm32.apk",
-      "sha256": "14cd812cd8701baf5429bd26cddc178cdabf90f655cf0ebca2367956c075ef3f"
+      "name": "Streamplayer_v5.3.68_arm32.apk",
+      "sha256": "68fe8faa368d38e7620bde9f9af1f410c9369f356ac6c76417002270725bc08c"
     },
     "x86_64": {
-      "name": "Streamplayer_v5.3.67_x86_64.apk",
-      "sha256": "2c3e74a5e4b6ba96abb75bc6571e8104e7308830d1ec2a4d2630a8f532370f08"
+      "name": "Streamplayer_v5.3.68_x86_64.apk",
+      "sha256": "836264d9195bfe2fff42463f0e15672643855e1ca0bfb067531cf0df96aae11b"
     }
   }
 }
