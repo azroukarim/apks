@@ -1,18 +1,18 @@
 {
-  "version": "5.3.72",
-  "notes": "Durée des épisodes TS/Xtream récupérée depuis info.duration_secs, numéro d'épisode corrigé, navigation bouquets et timeline lecteur, accueil toujours en premier, réglages 3×2.",
+  "version": "5.3.73",
+  "notes": "Episodes Stalker (portails restream) affiches et lisibles, barre de seek 30 s.",
   "files": {
     "arm64-v8a": {
-      "name": "Streamplayer_v5.3.72_arm64.apk",
-      "sha256": "34b0be13d85d8b9c305689cac84467434ac54d25f8175ac333337f6159d0632d"
+      "name": "Streamplayer_v5.3.73_arm64.apk",
+      "sha256": "a5af3008a3541245785c197a27ef50c3acefef8b35299c11b980204ddb2a4d1d"
     },
     "armeabi-v7a": {
-      "name": "Streamplayer_v5.3.72_arm32.apk",
-      "sha256": "30dd7f9c300c7d4e3fb35b76c488d86ead456e8fc15508df30d2b86feb388991"
+      "name": "Streamplayer_v5.3.73_arm32.apk",
+      "sha256": "446762759aa0209a0f2dab2448f3bc8b41943d435d7cf06adf0f6d11535109b0"
     },
     "x86_64": {
-      "name": "Streamplayer_v5.3.72_x86_64.apk",
-      "sha256": "f528b8d5dcb49d7aafd569d9e4807a471012fe1cb8af09c7c74ff112f1e8ab6d"
+      "name": "Streamplayer_v5.3.73_x86_64.apk",
+      "sha256": "95733002a24a0a02bf7579eee9a3156fa4f5e274e8c0333d8e4faebb3ad8ed7e"
     }
   }
 }

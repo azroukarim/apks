@@ -1,4 +1,4 @@
-# Streamplayer v5 — build 5.3.72
+﻿# Streamplayer v5 — build 5.3.73
 
 APK de production pour Android TV / Google TV / Fire TV, téléphones et tablettes.
 
@@ -6,9 +6,9 @@ APK de production pour Android TV / Google TV / Fire TV, téléphones et tablett
 
 | Fichier | Architecture |
 | --- | --- |
-| `Streamplayer_v5.3.72_arm32.apk` | `armeabi-v7a` (boîtiers TV 32 bits) |
-| `Streamplayer_v5.3.72_arm64.apk` | `arm64-v8a` (téléphones/tablettes et TV 64 bits) |
-| `Streamplayer_v5.3.72_x86_64.apk` | `x86_64` (émulateurs / TV x86) |
+| `Streamplayer_v5.3.73_arm32.apk` | `armeabi-v7a` (boîtiers TV 32 bits) |
+| `Streamplayer_v5.3.73_arm64.apk` | `arm64-v8a` (téléphones/tablettes et TV 64 bits) |
+| `Streamplayer_v5.3.73_x86_64.apk` | `x86_64` (émulateurs / TV x86) |
 
 ## Écran d'accueil
 
@@ -34,20 +34,20 @@ désactivez l'Auto Blocker sur Samsung) lors de la première mise à jour.
 ## Liens de téléchargement (HTTP local)
 
 ```
-http://192.168.0.87:8099/Streamplayer_v5.3.72_arm32.apk
-http://192.168.0.87:8099/Streamplayer_v5.3.72_arm64.apk
-http://192.168.0.87:8099/Streamplayer_v5.3.72_x86_64.apk
+http://192.168.0.87:8099/Streamplayer_v5.3.73_arm32.apk
+http://192.168.0.87:8099/Streamplayer_v5.3.73_arm64.apk
+http://192.168.0.87:8099/Streamplayer_v5.3.73_x86_64.apk
 ```
 
 Liens GitHub (utilisés par la mise à jour automatique) :
 
 ```
-https://raw.githubusercontent.com/azroukarim/apks/main/Streamplayer_v5.3.72_arm32.apk
-https://raw.githubusercontent.com/azroukarim/apks/main/Streamplayer_v5.3.72_arm64.apk
-https://raw.githubusercontent.com/azroukarim/apks/main/Streamplayer_v5.3.72_x86_64.apk
+https://raw.githubusercontent.com/azroukarim/apks/main/Streamplayer_v5.3.73_arm32.apk
+https://raw.githubusercontent.com/azroukarim/apks/main/Streamplayer_v5.3.73_arm64.apk
+https://raw.githubusercontent.com/azroukarim/apks/main/Streamplayer_v5.3.73_x86_64.apk
 ```
 
-## Changements 5.3.72
+## Changements 5.3.73
 
 - **Durée des épisodes** : la durée réelle est lue dans `info.duration_secs` / `info.duration` renvoyée par Xtream (et dans `info` pour Stalker). Les épisodes servis en **MPEG-TS** n'ont pas de durée dans le flux : VLC/MPV affichaient donc `--:--`, même après plusieurs secondes. L'interface affiche maintenant par exemple `00:19 / 2:26:44` dès l'ouverture.
 - **Numéro d'épisode** : utilisation de `episode_num` (Xtream) pour afficher `S1E22` au lieu de `S1E` vide.
@@ -63,8 +63,8 @@ https://raw.githubusercontent.com/azroukarim/apks/main/Streamplayer_v5.3.72_x86_
 ## Installation manuelle
 
 ```sh
-adb install -r Streamplayer_v5.3.72_arm32.apk   # boîtier TV
-adb install -r Streamplayer_v5.3.72_arm64.apk   # téléphone / tablette
+adb install -r Streamplayer_v5.3.73_arm32.apk   # boîtier TV
+adb install -r Streamplayer_v5.3.73_arm64.apk   # téléphone / tablette
 ```
 
 ## Vérification
