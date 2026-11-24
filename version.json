@@ -1,18 +1,18 @@
 {
-  "version": "5.3.70",
-  "notes": "Correction de la durée des épisodes (analyse VOD), navigation bouquets et timeline du lecteur, accueil toujours en premier, réglages 3×2.",
+  "version": "5.3.71",
+  "notes": "Durée des épisodes récupérée depuis le fournisseur (Xtream/Stalker), navigation bouquets et timeline lecteur, accueil toujours en premier, réglages 3×2.",
   "files": {
     "arm64-v8a": {
-      "name": "Streamplayer_v5.3.70_arm64.apk",
-      "sha256": "83556fc32df18fa20792553692d5b42857e5efea8a7a3dc8d1aff0d46bfe4b4d"
+      "name": "Streamplayer_v5.3.71_arm64.apk",
+      "sha256": "9349c27623a40be88f64b61431defb775b6ce424bc9bdaa33e0efcda5a4f3187"
     },
     "armeabi-v7a": {
-      "name": "Streamplayer_v5.3.70_arm32.apk",
-      "sha256": "131cdbb93ef760857f2826628f61f20154132db797347c432550871f12647d5e"
+      "name": "Streamplayer_v5.3.71_arm32.apk",
+      "sha256": "091cd55b5c31ff555c41342bf16b51a08734d1e1a26cc6e690967103927a3d36"
     },
     "x86_64": {
-      "name": "Streamplayer_v5.3.70_x86_64.apk",
-      "sha256": "b770dfabcb433e6ea5031cdf15ba3962360936548d3e13781b8a2ac34989780d"
+      "name": "Streamplayer_v5.3.71_x86_64.apk",
+      "sha256": "8933881db6d7d7949b9b5802eab551ddfa486874386484476391058ae57293d7"
     }
   }
 }
