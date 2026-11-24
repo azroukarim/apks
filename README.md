@@ -1,4 +1,4 @@
-# Streamplayer v5 — build 5.3.68
+# Streamplayer v5 — build 5.3.70
 
 APK de production pour Android TV / Google TV / Fire TV, téléphones et tablettes.
 
@@ -6,9 +6,9 @@ APK de production pour Android TV / Google TV / Fire TV, téléphones et tablett
 
 | Fichier | Architecture |
 | --- | --- |
-| `Streamplayer_v5.3.68_arm32.apk` | `armeabi-v7a` (boîtiers TV 32 bits) |
-| `Streamplayer_v5.3.68_arm64.apk` | `arm64-v8a` (téléphones/tablettes et TV 64 bits) |
-| `Streamplayer_v5.3.68_x86_64.apk` | `x86_64` (émulateurs / TV x86) |
+| `Streamplayer_v5.3.70_arm32.apk` | `armeabi-v7a` (boîtiers TV 32 bits) |
+| `Streamplayer_v5.3.70_arm64.apk` | `arm64-v8a` (téléphones/tablettes et TV 64 bits) |
+| `Streamplayer_v5.3.70_x86_64.apk` | `x86_64` (émulateurs / TV x86) |
 
 ## Écran d'accueil
 
@@ -34,20 +34,20 @@ désactivez l'Auto Blocker sur Samsung) lors de la première mise à jour.
 ## Liens de téléchargement (HTTP local)
 
 ```
-http://192.168.0.87:8099/Streamplayer_v5.3.68_arm32.apk
-http://192.168.0.87:8099/Streamplayer_v5.3.68_arm64.apk
-http://192.168.0.87:8099/Streamplayer_v5.3.68_x86_64.apk
+http://192.168.0.87:8099/Streamplayer_v5.3.70_arm32.apk
+http://192.168.0.87:8099/Streamplayer_v5.3.70_arm64.apk
+http://192.168.0.87:8099/Streamplayer_v5.3.70_x86_64.apk
 ```
 
 Liens GitHub (utilisés par la mise à jour automatique) :
 
 ```
-https://raw.githubusercontent.com/azroukarim/apks/main/Streamplayer_v5.3.68_arm32.apk
-https://raw.githubusercontent.com/azroukarim/apks/main/Streamplayer_v5.3.68_arm64.apk
-https://raw.githubusercontent.com/azroukarim/apks/main/Streamplayer_v5.3.68_x86_64.apk
+https://raw.githubusercontent.com/azroukarim/apks/main/Streamplayer_v5.3.70_arm32.apk
+https://raw.githubusercontent.com/azroukarim/apks/main/Streamplayer_v5.3.70_arm64.apk
+https://raw.githubusercontent.com/azroukarim/apks/main/Streamplayer_v5.3.70_x86_64.apk
 ```
 
-## Changements 5.3.68
+## Changements 5.3.70
 
 - **Bouquets** : navigation gauche/droite entre les colonnes EN DIRECT, FILMS et SÉRIES ; flèche gauche sur la première colonne va à **Annuler**, flèche droite sur la dernière va à **Enregistrer**.
 - **Lecteur** : descente vers la **timeline** du film/épisode ; gauche/droite pour avancer/reculer ; nouvelle descente vers **Play**, puis gauche/droite entre Play, ±10 s, Audio/Sous-titres et Écran.
@@ -58,8 +58,8 @@ https://raw.githubusercontent.com/azroukarim/apks/main/Streamplayer_v5.3.68_x86_
 ## Installation manuelle
 
 ```sh
-adb install -r Streamplayer_v5.3.68_arm32.apk   # boîtier TV
-adb install -r Streamplayer_v5.3.68_arm64.apk   # téléphone / tablette
+adb install -r Streamplayer_v5.3.70_arm32.apk   # boîtier TV
+adb install -r Streamplayer_v5.3.70_arm64.apk   # téléphone / tablette
 ```
 
 ## Vérification
